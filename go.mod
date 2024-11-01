@@ -1,4 +1,4 @@
-module github.com/filecoin-project/go-f3
+module github.com/marcus-hodgson-antithesis/go-f3
 
 go 1.22
 

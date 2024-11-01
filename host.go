@@ -16,7 +16,7 @@ import (
 	"github.com/filecoin-project/go-f3/internal/clock"
 	"github.com/filecoin-project/go-f3/internal/psutil"
 	"github.com/filecoin-project/go-f3/internal/writeaheadlog"
-	"github.com/filecoin-project/go-f3/manifest"
+	"github.com/marcus-hodgson-antithesis/go-f3/manifest"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"go.opentelemetry.io/otel/metric"

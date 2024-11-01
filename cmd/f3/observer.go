@@ -18,7 +18,7 @@ import (
 	"github.com/filecoin-project/go-f3/cmd/f3/msgdump"
 	"github.com/filecoin-project/go-f3/gpbft"
 	"github.com/filecoin-project/go-f3/internal/psutil"
-	"github.com/filecoin-project/go-f3/manifest"
+	"github.com/marcus-hodgson-antithesis/go-f3/manifest"
 	leveldb "github.com/ipfs/go-ds-leveldb"
 	logging "github.com/ipfs/go-log/v2"
 	"github.com/libp2p/go-libp2p"

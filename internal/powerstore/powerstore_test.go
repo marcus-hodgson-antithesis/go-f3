@@ -13,7 +13,7 @@ import (
 	"github.com/filecoin-project/go-f3/internal/clock"
 	"github.com/filecoin-project/go-f3/internal/consensus"
 	"github.com/filecoin-project/go-f3/internal/powerstore"
-	"github.com/filecoin-project/go-f3/manifest"
+	"github.com/marcus-hodgson-antithesis/go-f3/manifest"
 	"github.com/filecoin-project/go-state-types/big"
 
 	"github.com/ipfs/go-datastore"

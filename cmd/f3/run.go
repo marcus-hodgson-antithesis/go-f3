@@ -9,7 +9,7 @@ import (
 	"github.com/filecoin-project/go-f3"
 	"github.com/filecoin-project/go-f3/gpbft"
 	"github.com/filecoin-project/go-f3/internal/consensus"
-	"github.com/filecoin-project/go-f3/manifest"
+	"github.com/marcus-hodgson-antithesis/go-f3/manifest"
 	"github.com/filecoin-project/go-f3/sim/signing"
 	leveldb "github.com/ipfs/go-ds-leveldb"
 	logging "github.com/ipfs/go-log/v2"

@@ -7,7 +7,7 @@ import (
 
 	"github.com/filecoin-project/go-f3/internal/clock"
 	"github.com/filecoin-project/go-f3/internal/consensus"
-	"github.com/filecoin-project/go-f3/manifest"
+	"github.com/marcus-hodgson-antithesis/go-f3/manifest"
 	"github.com/stretchr/testify/require"
 )
 
@@ -28,7 +28,7 @@ func TestFusingManifestProvider(t *testing.T) {
 
 	initialManifest := manifest.LocalDevnetManifest()
 	initialManifest.BootstrapEpoch = 1000
-	initialManifest.EC.Finality = 900
+	initialManifest.EC.Finality = 20
 	otherManifest := *initialManifest
 	otherManifest.BootstrapEpoch -= 10
 

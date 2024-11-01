@@ -18,7 +18,7 @@ import (
 	"github.com/filecoin-project/go-f3/internal/measurements"
 	"github.com/filecoin-project/go-f3/internal/powerstore"
 	"github.com/filecoin-project/go-f3/internal/writeaheadlog"
-	"github.com/filecoin-project/go-f3/manifest"
+	"github.com/marcus-hodgson-antithesis/go-f3/manifest"
 
 	"github.com/ipfs/go-datastore"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"

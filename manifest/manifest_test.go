@@ -7,12 +7,12 @@ import (
 	"time"
 
 	"github.com/filecoin-project/go-f3/gpbft"
-	"github.com/filecoin-project/go-f3/manifest"
+	"github.com/marcus-hodgson-antithesis/go-f3/manifest"
 	"github.com/stretchr/testify/require"
 )
 
 var base = manifest.Manifest{
-	BootstrapEpoch: 900,
+	BootstrapEpoch: 20,
 	NetworkName:    "test",
 	ExplicitPower: gpbft.PowerEntries{
 		{
@@ -36,7 +36,7 @@ var base = manifest.Manifest{
 		RebroadcastBackoffMax:      30,
 	},
 	EC: manifest.EcConfig{
-		Finality:                 900,
+		Finality:                 20,
 		DelayMultiplier:          2.0,
 		Period:                   30 * time.Second,
 		BaseDecisionBackoffTable: []float64{1.3, 1.69, 2.2, 2.86, 3.71, 4.83, 6.27, 8.16, 10.6, 13.79, 15.},

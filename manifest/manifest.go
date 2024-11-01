@@ -21,7 +21,7 @@ var (
 
 	// Default configuration for the EC Backend
 	DefaultEcConfig = EcConfig{
-		Finality:        900,
+		Finality:        20,
 		Period:          30 * time.Second,
 		DelayMultiplier: 2.,
 		// MaxBackoff is 15min given default params
